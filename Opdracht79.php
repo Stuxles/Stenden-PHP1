@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>79</title>
     </head>
     <body>
         <pre>
@@ -104,10 +104,39 @@
                 }
                 echo "</br>";
             }
+
+            echo "<h1>20 FOR</h1>";
+            for ($i = 6; $i >= 1; $i--) {
+                for ($ii = 1; $ii <= $i; $ii++) {
+                    echo "$ii";
+                }
+                echo "</br>";
+            }
+
+            echo "<h1>20 WHILE</h1>";
+            $i = 6;
+            while ($i >= 1) {
+                $ii = 1;
+                while ($ii <= $i) {
+                    echo "$ii";
+                    $ii++;
+                }
+                echo "</br>";
+                $i--;
+            }
+
+            echo "<h1>20 DO WHILE</h1>";
+            $d = 6;
+            do {
+                $dd = 1;
+                do {
+                    echo "$dd";
+                    $dd++;
+                } while ($dd <= $d);
+                echo "</br>";
+                $d--;
+            } while ($d >= 1);
             ?>
-
-
-
         </pre>
     </body>
 </html>
