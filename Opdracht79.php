@@ -15,7 +15,7 @@
                     echo "*";
                 }
                 echo "</br>";
-            };
+            }
 
             echo "<h1>2</h1>";
             for ($i = 1; $i <= 8; $i++) {
@@ -26,7 +26,7 @@
                     echo "*";
                 }
                 echo "</br>";
-            };
+            }
 
             echo "<h1>3</h1>";
             for ($i = 0; $i <= 8; $i += 2) {
@@ -38,7 +38,7 @@
                 }
 
                 echo "</br>";
-            };
+            }
 
             echo "<h1>4</h1>";
             for ($i = 0; $i <= 8; $i += 2) {
@@ -50,19 +50,19 @@
                 }
 
                 echo "</br>";
-            };
+            }
 
             echo "<h1>5</h1>";
             for ($i = 0; $i <= 7; $i++) {
                 for ($ii = 0; $ii < $i; $ii++) {
                     echo "*";
-                };
+                }
                 echo "</br>";
             }
             for ($i = 0; $i <= 6; $i++) {
                 for ($ii = 6; $ii > $i; $ii--) {
                     echo "*";
-                };
+                }
                 echo "</br>";
             }
 
@@ -70,19 +70,19 @@
             for ($i = 0; $i <= 7; $i++) {
                 for ($iii = 7; $iii > $i; $iii--) {
                     echo " ";
-                };
+                }
                 for ($ii = 0; $ii < $i; $ii++) {
                     echo "*";
-                };
+                }
                 echo "</br>";
             }
             for ($i = 0; $i <= 6; $i++) {
                 for ($iii = 0; $iii <= $i; $iii++) {
                     echo " ";
-                };
+                }
                 for ($ii = 6; $ii > $i; $ii--) {
                     echo "*";
-                };
+                }
                 echo "</br>";
             }
 
@@ -94,7 +94,7 @@
                 echo "</br>";
             }
 
-            echo "<h1>14</h1>";
+            echo "<h1>14 FOR</h1>";
             for ($i = 0; $i <= 8; $i++) {
                 for ($ii = 1; $ii <= $i; $ii++) {
                     echo "*";
@@ -104,6 +104,24 @@
                 }
                 echo "</br>";
             }
+
+            echo "<h1>14 DO WHILE</h1>";
+            $dw = 0;
+            do {
+                echo "</br>";
+                $dw++;
+                $dww = 1;
+                do {
+                    echo "*";
+                    $dww++;
+                } while ($dww <= $dw);
+
+                $ddww = 8;
+                do {
+                    echo "-";
+                    $ddww--;
+                } while ($ddww >= $dw);
+            } while ($dw <= 7);
 
             echo "<h1>20 FOR</h1>";
             for ($i = 6; $i >= 1; $i--) {
