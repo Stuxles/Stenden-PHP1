@@ -1,4 +1,4 @@
-<?php	
+<?php
 		function setGoogleMapLocation($width, $height, $street, $place)
 		{
 			require_once("simpleGMapAPI.php");
