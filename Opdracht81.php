@@ -14,8 +14,8 @@
 
         <h1>Comment:</h1>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
-            <textarea name="comment" rows="5" cols="40"></textarea>
-            </br>
+            <textarea title="comment" name="comment" rows="5" cols="40"></textarea>
+            <br>
             <input type="submit" name="submit" value="Submit">
         </form>
 
