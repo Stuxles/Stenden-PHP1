@@ -3,7 +3,7 @@
 			{
 				require "EasyGoogleMap.class.php";
 
-				$googlemaps_api_key = "ABQIAAAAI4vi2njWsbWM7ylqbNTA_xTb9cXhFwjERd5O3JebjSLdO05y_hRKjjiCl6VnxbSjR3OBFP4_7PqW7Q";
+				$googlemaps_api_key = "AIzaSyCo4DwZ8cySBISE8eleX2uWoAGN1iTWtQQ";
 
 				$gm = & new EasyGoogleMap($googlemaps_api_key);
 				

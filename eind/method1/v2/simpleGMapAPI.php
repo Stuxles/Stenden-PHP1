@@ -475,7 +475,7 @@ function printGMapsJS()
     $this->apiSensor ? $_sensor = "true" : $_sensor = "false";
     
     echo "\n<!-- Include Google Maps JS -->";
-    echo "\n<script src=\"http://maps.google.com/maps/api/js?sensor=$_sensor\" type=\"text/javascript\"></script>\n";
+    echo "\n<script src=\"http://maps.google.com/maps/api/js?key=AIzaSyCIw54Vt8QY6a3jN4-HpWdKAiuUgcysYfU&amp;sensor=$_sensor\" type=\"text/javascript\"></script>\n";
 }
 
 /**
