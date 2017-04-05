@@ -1,0 +1,53 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+textarea{
+    width: 270px;
+    resize: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 10px;
+}
+input{
+    margin-bottom: 10px;
+}
+a{
+    color:#000;
+}
+.all{
+    width: 800px;
+    height: 700px;
+    background-color: grey;
+    margin: 0 auto;
+    border: solid black 3px;
+}
+.menu{
+    width: 800px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+}
+.content{
+    padding: 10px;
+    width: 800px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+.content img{
+    max-height: 200px;
+    max-width: 200px;
+}
+.footer{
+    padding-top: 5px;
+    width: 800px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+}

@@ -1,2 +1,1 @@
-</body>
-</html>
+<div class="footer">Dennis Boer, INF1F3</div>
